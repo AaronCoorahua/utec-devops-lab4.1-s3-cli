@@ -1,0 +1,16 @@
+# Estado local del lab (nombre de bucket de la sesion)
+.bucket_name
+
+# Evidencias: se entregan en el informe, no se versionan
+imagenes/
+logs_evidencia/
+
+# Credenciales / secretos: NUNCA versionar
+*.pem
+*.key
+.env
+credentials
+
+# Scratch
+.demo/
+test.py
